@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:2px;
+}
+.recipe-details-title{
+    text-align: center;
+}
+.ingredients-details{
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.steps-details{
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ingredients-ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+.ingredients-ul li{
+    padding: 8px 0; /* Add padding between list items */
+    border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .ingredients-ul li:hover {
+    background-color: #aeacac; /* Light gray background on hover */
+  }
+  
+  /* Optional: Style the text */
+  .ingredients-ul li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Optional: Add some margin to the first list item */
+  .ingredients-ul li:first-child {
+    margin-top: 10px;
+  }
+
+  .steps-ol {
+    list-style-type: decimal; /* Use decimal numbers as the list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .steps-ol li {
+    padding: 8px 0; /* Add padding between list items */
+    border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .steps-ol li:hover {
+    background-color: #aeacac; /* Light gray background on hover */
+  }
+  
+  /* Optional: Style the text */
+  .steps-ol li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Optional: Add some margin to the first list item */
+  .steps-ol li:first-child {
+    margin-top: 10px;
+  }
+  
+  

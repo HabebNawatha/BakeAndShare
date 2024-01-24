@@ -1,0 +1,31 @@
+/* MyProfile.css */
+.container {
+    display: flex;
+}
+
+.profile-container {
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.profile-div {
+    text-align: center;
+}
+
+.shared-recipes {
+    flex: 3; /* Take three times more space than profile-container */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.recipes-tbl {
+    width: 100%; /* Make the table take 100% width of its container */
+}
+
+
+h1{
+    color: #999ba4;
+    text-align: center;
+}
+
